@@ -78,11 +78,11 @@
         </li>
       
         <li>
-          <a class="nav home" href="/projects/"
+          <a class="nav home" href="/archives/"
             
             
-            id="projects">
-            <i class='fas fa-code-branch fa-fw'></i>&nbsp;项目
+            id="archives">
+            <i class='fas fa-archive fa-fw'></i>&nbsp;归档
           </a>
         </li>
       
@@ -140,34 +140,34 @@
 							</li>
       			
   						<li>
-								<a class="nav flat-box" href="/blog/categories/"
+								<a class="nav flat-box" href="/categories/"
                   
                     rel="nofollow"
                   
                   
-                  id="blogcategories">
+                  id="categories">
 									<i class='fas fa-folder-open fa-fw'></i>&nbsp;分类
 								</a>
 							</li>
       			
   						<li>
-								<a class="nav flat-box" href="/blog/tags/"
+								<a class="nav flat-box" href="/tags/"
                   
                     rel="nofollow"
                   
                   
-                  id="blogtags">
+                  id="tags">
 									<i class='fas fa-hashtag fa-fw'></i>&nbsp;标签
 								</a>
 							</li>
       			
   						<li>
-								<a class="nav flat-box" href="/blog/archives/"
+								<a class="nav flat-box" href="/archives/"
                   
                     rel="nofollow"
                   
                   
-                  id="blogarchives">
+                  id="archives">
 									<i class='fas fa-archive fa-fw'></i>&nbsp;归档
 								</a>
 							</li>
@@ -219,22 +219,22 @@
             </li>
           
             <li>
-							<a class="nav flat-box" href="/blog/archives/"
+							<a class="nav flat-box" href="/archives/"
                 
                   rel="nofollow"
                 
                 
-                id="blogarchives">
+                id="archives">
 								<i class='fas fa-archive fa-fw'></i>&nbsp;文章归档
 							</a>
             </li>
           
             <li>
-							<a class="nav flat-box" href="/projects/"
+							<a class="nav flat-box" href="/atom.xml"
                 
                 
-                id="projects">
-								<i class='fas fa-code-branch fa-fw'></i>&nbsp;开源项目
+                id="atom.xml">
+								<i class='fas fa-rss fa-fw'></i>&nbsp;RSS订阅
 							</a>
             </li>
           
@@ -553,6 +553,12 @@
       
       
       
+        <section id="comments">
+          <div id="valine_container" class="valine_thread">
+            <i class="fas fa-spinner fa-spin fa-fw"></i>
+          </div>
+        </section>
+      
     </section>
   </article>
 
@@ -610,26 +616,26 @@
           近期文章
         </a></li>
       
-        <li><a class="flat-box" title="/blog/archives/" href="/blog/archives/"
+        <li><a class="flat-box" title="/archives/" href="/archives/"
           
             rel="nofollow"
           
           
-          id="blogarchives">
+          id="archives">
           
             <i class="fas fa-archive fa-fw" aria-hidden="true"></i>
           
           文章归档
         </a></li>
       
-        <li><a class="flat-box" title="/projects/" href="/projects/"
+        <li><a class="flat-box" title="/atom.xml" href="/atom.xml"
           
           
-          id="projects">
+          id="atom.xml">
           
-            <i class="fas fa-code-branch fa-fw" aria-hidden="true"></i>
+            <i class="fas fa-rss fa-fw" aria-hidden="true"></i>
           
-          开源项目
+          RSS订阅
         </a></li>
       
         <li><a class="flat-box" title="/friends/" href="/friends/"
@@ -712,8 +718,8 @@
       rel="nofollow"
     
     
-    href="/blog/categories/"
-    title="blog/categories/">
+    href="/categories/"
+    title="categories/">
     <i class="fas fa-expand-arrows-alt fa-fw"></i></a>
   
 </header>
@@ -770,8 +776,8 @@
       rel="nofollow"
     
     
-    href="/blog/tags/"
-    title="blog/tags/">
+    href="/tags/"
+    title="tags/">
     <i class="fas fa-expand-arrows-alt fa-fw"></i></a>
   
 </header>
@@ -1128,6 +1134,36 @@
 
 
 
+
+  <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+  
+    
+      <script src="https://cdn.jsdelivr.net/gh/xaoxuu/volantis@1.0.6/js/volantis.min.js"></script>
+    
+  
+  <script>
+  var GUEST_INFO = ['nick','mail','link'];
+  var guest_info = 'nick,mail,link'.split(',').filter(function(item){
+    return GUEST_INFO.indexOf(item) > -1
+  });
+  var notify = 'true' == true;
+  var verify = 'true' == true;
+  var valine = new Valine();
+  valine.init({
+    el: '#valine_container',
+    notify: notify,
+    verify: verify,
+    guest_info: guest_info,
+    
+    appId: "sm5E4krz0QTDInNR8eBqUXSR-gzGzoHsz",
+    appKey: "jeOWE6uIlDTJLR4z3me3E3gm",
+    placeholder: "快来评论吧~",
+    pageSize:'10',
+    avatar:'mp',
+    lang:'zh-cn',
+    highlight:'true'
+  })
+  </script>
 
 
 
