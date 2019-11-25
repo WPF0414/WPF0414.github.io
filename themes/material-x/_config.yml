@@ -4,11 +4,11 @@ info:
   docs: https://xaoxuu.com/wiki/material-x/
   cdn: # 把对应的那一行注释掉就使用本地的文件
     css:
-      style: https://cdn.jsdelivr.net/gh/xaoxuu/cdn-material-x@19.10.22/css/style.css
+      style: https://cdn.jsdelivr.net/gh/WPF0414/cdn-Material-X@1.2/css/style.css
     js:
-      app: https://cdn.jsdelivr.net/gh/xaoxuu/cdn-material-x@19.9/js/app.js
-      search: https://cdn.jsdelivr.net/gh/xaoxuu/cdn-material-x@19.9/js/search.js
-      volantis: https://cdn.jsdelivr.net/gh/xaoxuu/volantis@1.0.6/js/volantis.min.js
+      app: https://cdn.jsdelivr.net/gh/wpf0414/cdn-material-x@1.2/js/app.js
+      search: https://cdn.jsdelivr.net/gh/wpf0414/cdn-material-x@1.2/js/search.js
+      volantis: https://cdn.jsdelivr.net/gh/wpf0414/cdn-material-x@1.2/js/volantis.min.js
 
 
 
@@ -38,7 +38,7 @@ music:
   autoplay: false   # 自动播放
 
 # 友链页头像占位图
-avatar_placeholder: https://cdn.jsdelivr.net/gh/xaoxuu/assets@master/avatar/avatar.png
+avatar_placeholder: https://cdn.jsdelivr.net/gh/WPF0414/cdn-Material-X@1.1/avatar/avatar.JPG
 
 # 日期格式 http://momentjs.com/docs/
 date_format: 'YYYY-MM-DD HH:mm' # 文章发布日期的格式
@@ -60,7 +60,7 @@ backstretch:
 cover:
   scheme: search    # 后期将会提供多种封面方案
   height: full      # full（默认值）: 首页封面占据整个第一屏幕，其他页面占半个屏幕高度， half: 所有页面都封面都只占半个屏幕高度
-  title: 林深时见鹿
+  title: ymxcyn
   # logo: assets/logo.png    # logo和title只显示一个，若同时设置，则只显示logo
   # search_placeholder: '搜索'
   # 主页封面菜单
@@ -241,19 +241,19 @@ social:
 share:
   - id: qq
     name: QQ好友
-    img: https://cdn.jsdelivr.net/gh/xaoxuu/assets@19.1.9/logo/128/qq.png
+    img: https://cdn.jsdelivr.net/gh/WPF0414/cdn-Material-X@1.2/logo/qq.png
   - id: qzone
     name: QQ空间
-    img: https://cdn.jsdelivr.net/gh/xaoxuu/assets@19.1.9/logo/128/qzone.png
+    img: https://cdn.jsdelivr.net/gh/WPF0414/cdn-Material-X@1.2/logo/qzone.png
   - id: qrcode
     name: 微信
-    img: https://cdn.jsdelivr.net/gh/xaoxuu/assets@19.1.9/logo/128/wechat.png
+    img: https://cdn.jsdelivr.net/gh/WPF0414/cdn-Material-X@1.2/logo/wechat.png
   - id: weibo
     name: 微博
-    img: https://cdn.jsdelivr.net/gh/xaoxuu/assets@19.1.9/logo/128/weibo.png
+    img: https://cdn.jsdelivr.net/gh/WPF0414/cdn-Material-X@1.2/logo/weibo.png
   - id: qrcode
     name: QRcode
-    img: https://cdn.jsdelivr.net/gh/xaoxuu/assets@19.1.9/logo/128/qrcode.png
+    img: https://cdn.jsdelivr.net/gh/WPF0414/cdn-Material-X@1.2/logo/qrcode.png
 
 
 
