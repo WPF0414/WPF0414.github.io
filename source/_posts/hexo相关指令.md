@@ -4,6 +4,10 @@ toc: true
 abbrlink: bafc0e00
 date: 2019-11-18 20:18:25
 comments: true
+thumbnail: https://cdn.jsdelivr.net/gh/TRHX/ImageHosting/ITRHX-PIC/thumbnail/img.png
+valine:
+  placeholder: 你觉得这篇文章怎么样呢？
+top: true
 categories: 
 - hexo
 tags:
