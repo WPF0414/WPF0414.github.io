@@ -195,6 +195,12 @@ content
 ```
 {% img [class names] /path/to/image [width] [height] "title text 'alt text'" %}
 ```
+#### Fancybox图片预览
+将需要放大预览的图片用`<fancybox></fancybox>`包含起来。
+无预览图片
+![](bafc0e00/Fancybox_example.png)
+有预览图片
+<fancybox>![](bafc0e00/Fancybox_example.png)</fancybox>
 ### Include Code
 插入 `source/downloads/code`文件夹内的代码文件。`source/downloads/code`不是固定的，取决于你在配置文件中`code_dir`的配置。
 ```
