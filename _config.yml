@@ -126,10 +126,9 @@ feed:
   autodiscovery: true
 # Live2D
 ## https://github.com/EYHN/hexo-helper-live2d
-## https://l2dwidget.js.org/docs/class/src/index.js~L2Dwidget.html#instance-method-init
 live2d:
   enable: false
-  #enable: false
+  # enable: false
   scriptFrom: local # 默认
   pluginRootPath: live2dw/ # 插件在站点上的根目录(相对路径)
   pluginJsPath: lib/ # 脚本文件相对与插件根目录路径
@@ -138,7 +137,7 @@ live2d:
   # scriptFrom: unpkg # unpkg CDN
   # scriptFrom: https://cdn.jsdelivr.net/npm/live2d-widget@3.x/lib/L2Dwidget.min.js # 你的自定义 url
   tagMode: false # 标签模式, 是否仅替换 live2d tag标签而非插入到所有页面中
-  debug: true # 调试, 是否在控制台输出日志
+  debug: false # 调试, 是否在控制台输出日志
   model:
     use: live2d-widget-model-koharu
     # use: live2d-widget-model-wanko # npm-module package name
@@ -147,8 +146,8 @@ live2d:
     # use: https://cdn.jsdelivr.net/npm/live2d-widget-model-wanko@1.0.5/assets/wanko.model.json # 你的自定义 url
   display:
     position: right
-    width: 145
-    height: 315
+    width: 150
+    height: 300
   mobile:
     show: false # 是否在移动设备上显示
     scale: 0.5 # 移动设备上的缩放
