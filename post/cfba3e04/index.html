@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   
-  <title>Category: 美文 | 林深时见鹿</title>
+  <title>Mac下nginx启动、关闭与重启命令 | 林深时见鹿</title>
   
   
   <meta name="description" content="所谓博客，不过是孤芳自赏！">
@@ -63,7 +63,7 @@
   
   
   <div class="cover-wrapper">
-    <cover class='cover  half'>
+    <cover class='cover post half'>
       
         
   <img class='logo' src='https://cdn.jsdelivr.net/gh/WPF0414/cdn-Material-X@1.4/logo/titleLogo.png'/>
@@ -315,19 +315,11 @@
 
   <div class="l_body">
     <div class='body-wrapper'>
-      
-<div class='l_main'>
+      <div class='l_main'>
   
+
+  <article id="post" class="post white-box article-type-post" itemscope itemprop="blogPost">
     
-      
-  <section class="post-list">
-    
-      
-        
-          
-            <div class='post-wrapper'>
-              <article class="post reveal ">
-  
 
 
   <section class='meta'>
@@ -336,11 +328,13 @@
     <div class="meta" id="header-meta">
       
         
-  <h2 class="title">
-    <a href="/post/6340912b/">
-      十一月北方下雪
-    </a>
-  </h2>
+  
+    <h1 class="title">
+      <a href="/post/cfba3e04/">
+        Mac下nginx启动、关闭与重启命令
+      </a>
+    </h1>
+  
 
 
       
@@ -368,7 +362,7 @@
             <div class="new-meta-item date">
   <a class='notlink'>
     <i class="fas fa-calendar-alt" aria-hidden="true"></i>
-    <p>2019-11-20 20:14</p>
+    <p>2019-12-03 18:07</p>
   </a>
 </div>
 
@@ -378,11 +372,29 @@
             
   
   <div class='new-meta-item category'>
-    <a href='/categories/%E7%BE%8E%E6%96%87/' rel="nofollow">
+    <a href='/categories/nginx/' rel="nofollow">
       <i class="fas fa-folder-open" aria-hidden="true"></i>
-      <p>美文</p>
+      <p>nginx</p>
     </a>
   </div>
+
+
+          
+        
+          
+            
+  
+    <div class="new-meta-item browse busuanzi">
+      <a class='notlink'>
+        <i class="fas fa-eye" aria-hidden="true"></i>
+        <p>
+          <span id="busuanzi_value_page_pv">
+            <i class="fas fa-spinner fa-spin fa-fw" aria-hidden="true"></i>
+          </span>
+        </p>
+      </a>
+    </div>
+  
 
 
           
@@ -395,7 +407,7 @@
           <span class="post-meta-item-icon">
             <i class="fa fa-keyboard" aria-hidden="true"></i>
             <span class="post-meta-item-text">  字数统计: </span>
-            <span class="post-count">11.1k字</span>
+            <span class="post-count">27字</span>
           </span>
         </span>
     
@@ -404,7 +416,7 @@
           <span class="post-meta-item-icon">
             <i class="fa fa-hourglass-half"></i>
             <span class="post-meta-item-text">  阅读时长≈ </span>
-            <span class="post-count">37分</span>
+            <span class="post-count">1分</span>
           </span>
         </span>
     </div>
@@ -414,13 +426,6 @@
         
           
             
-  <div class="new-meta-item top-post" style="margin-left: 10px;">
-    <a class='notlink'>
-      <i class="fas fa-angle-double-up" aria-hidden="true" style="color: red;"></i>
-      <p>😊</p>
-    </a>
-  </div>
-
 
           
         
@@ -432,55 +437,181 @@
   </section>
 
 
-  <section class="article typo">
-    <div class="article-entry" itemprop="articleBody">
-      <p>十一月北方下雪<br>作者/赵耐凡</p>
-<p>1</p>
-<p>所有人都觉得我最后会把我的奶奶活埋了。</p>
-<p>上个周末我照例回到那个老旧的彩虹厂家属院，门房老头对我说：“对你奶奶好一点，她也活不了多久了，你的日子还长，不要让自己后悔。”</p>
+    <section class="article typo">
+      <div class="article-entry" itemprop="articleBody">
+        <h4 id="nginx相关命令"><a href="#nginx相关命令" class="headerlink" title="nginx相关命令"></a>nginx相关命令</h4><a id="more"></a>
+<h5 id="1、启动nginx："><a href="#1、启动nginx：" class="headerlink" title="1、启动nginx："></a>1、启动nginx：</h5><figure class="highlight ebnf"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">sudo nginx</span></span><br></pre></td></tr></table></figure>
+<h5 id="2、关闭nginx："><a href="#2、关闭nginx：" class="headerlink" title="2、关闭nginx："></a>2、关闭nginx：</h5><figure class="highlight arduino"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo nginx -s  <span class="built_in">stop</span></span><br></pre></td></tr></table></figure>
+<h5 id="3、重启nginx："><a href="#3、重启nginx：" class="headerlink" title="3、重启nginx："></a>3、重启nginx：</h5><figure class="highlight ebnf"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">sudo nginx -s reload</span></span><br></pre></td></tr></table></figure>
+      </div>
       
-        <div class="readmore">
-          <a href="/post/6340912b/" class="flat-box">
-            <i class="fas fa-book-open fa-fw" aria-hidden="true"></i>
-            阅读全文
-          </a>
-        </div>
+      
+        <br>
+        
+
+
+  <section class='meta' id="footer-meta">
+    <div class='new-meta-box'>
+      
+        
+          <div class="new-meta-item date" itemprop="dateUpdated" datetime="2019-12-03T18:07:33+08:00">
+  <a class='notlink'>
+    <i class="fas fa-clock" aria-hidden="true"></i>
+    <p>更新于 2019年12月3日</p>
+  </a>
+</div>
+
+        
+      
+        
+          
+  
+  <div class="new-meta-item meta-tags"><a class="tag" href="/tags/nginx/" rel="nofollow"><i class="fas fa-tag" aria-hidden="true"></i><p>nginx</p></a></div>
+
+
+        
+      
+        
+          
+  <div class="new-meta-item share -mob-share-list">
+  <div class="-mob-share-list share-body">
+    
+      
+        <a class="-mob-share-qq" title="QQ好友" rel="external nofollow noopener noreferrer"
+          
+          href="http://connect.qq.com/widget/shareqq/index.html?url=https://ymxcyn.cn/post/cfba3e04/&title=Mac下nginx启动、关闭与重启命令 | 林深时见鹿&pics=https://cdn.jsdelivr.net/gh/WPF0414/cdn-Material-X@1.1/avatar/avatar.JPG&summary=nginx相关命令"
+          
+          >
+          
+            <img src="https://cdn.jsdelivr.net/gh/WPF0414/cdn-Material-X@1.2/logo/qq.png">
+          
+        </a>
+      
+    
+      
+        <a class="-mob-share-qzone" title="QQ空间" rel="external nofollow noopener noreferrer"
+          
+          href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=https://ymxcyn.cn/post/cfba3e04/&title=Mac下nginx启动、关闭与重启命令 | 林深时见鹿&pics=https://cdn.jsdelivr.net/gh/WPF0414/cdn-Material-X@1.1/avatar/avatar.JPG&summary=nginx相关命令"
+          
+          >
+          
+            <img src="https://cdn.jsdelivr.net/gh/WPF0414/cdn-Material-X@1.2/logo/qzone.png">
+          
+        </a>
+      
+    
+      
+        <a class='qrcode' rel="external nofollow noopener noreferrer noopener" href='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAK4AAACuCAAAAACKZ2kyAAAByElEQVR42u3aS47CMBBFUfa/6TBFQg73VdlF07oeRSQ4JxOrfo8HXtfLev3l/Xr1y/1um5dcuXLb3Ot2ES5B8P1Xz8iVK3eeu3rB6pp8EnmeG+TKlftbXIKQK1fu/+Z20qR0f7ly5X6Xy48ntCkolxzP1eTKldvg8uPp3PWR+q5cuXJL3CtcJJRJnwzeLleu3BEuP1BqwUfajEHtWLly5Q5y06Ypb7UGJY/b1otcuXJnuP1GadpG5QNbHyIyuXLljnA7ZdNd//pQiJErV+4Ilx83fGs+bFErvsiVK3eSm7Y5+0NXPNCJGypy5cptc/f2N2sUEgbJlSt3hlsLO9K0pxZCLXM1uXLlHubW0pX04CNQnkTJlSv3W9z0YKo1WfnQRt51kStXbpfbD2jSAgofy0AFU7ly5R7jpmHHifAIJT9y5cod5PKgJH1xrQ8S51Vy5crdxL3CRUDpmFfwYXLlyh3h1pqsnWAordZs6AnLlSu3xOWHDkl++F1eli1WduXKldvm1gqd/DVpcSS+LVeu3D/A5UNdZJ84Y5MrV+6PcAmoU+WQK1fuPDctbvLBC5IaBUUTuXLljnA7jc9amMJLIa36rly5civcJ1kGmnl7dzRHAAAAAElFTkSuQmCC' target="_blank">
+        
+          <img src="https://cdn.jsdelivr.net/gh/WPF0414/cdn-Material-X@1.2/logo/wechat.png">
+        
+        </a>
+      
+    
+      
+        <a class="-mob-share-weibo" title="微博" rel="external nofollow noopener noreferrer"
+          
+          href="http://service.weibo.com/share/share.php?url=https://ymxcyn.cn/post/cfba3e04/&title=Mac下nginx启动、关闭与重启命令 | 林深时见鹿&pics=https://cdn.jsdelivr.net/gh/WPF0414/cdn-Material-X@1.1/avatar/avatar.JPG&summary=nginx相关命令"
+          
+          >
+          
+            <img src="https://cdn.jsdelivr.net/gh/WPF0414/cdn-Material-X@1.2/logo/weibo.png">
+          
+        </a>
+      
+    
+      
+        <a class='qrcode' rel="external nofollow noopener noreferrer noopener" href='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAK4AAACuCAAAAACKZ2kyAAAByElEQVR42u3aS47CMBBFUfa/6TBFQg73VdlF07oeRSQ4JxOrfo8HXtfLev3l/Xr1y/1um5dcuXLb3Ot2ES5B8P1Xz8iVK3eeu3rB6pp8EnmeG+TKlftbXIKQK1fu/+Z20qR0f7ly5X6Xy48ntCkolxzP1eTKldvg8uPp3PWR+q5cuXJL3CtcJJRJnwzeLleu3BEuP1BqwUfajEHtWLly5Q5y06Ypb7UGJY/b1otcuXJnuP1GadpG5QNbHyIyuXLljnA7ZdNd//pQiJErV+4Ilx83fGs+bFErvsiVK3eSm7Y5+0NXPNCJGypy5cptc/f2N2sUEgbJlSt3hlsLO9K0pxZCLXM1uXLlHubW0pX04CNQnkTJlSv3W9z0YKo1WfnQRt51kStXbpfbD2jSAgofy0AFU7ly5R7jpmHHifAIJT9y5cod5PKgJH1xrQ8S51Vy5crdxL3CRUDpmFfwYXLlyh3h1pqsnWAordZs6AnLlSu3xOWHDkl++F1eli1WduXKldvm1gqd/DVpcSS+LVeu3D/A5UNdZJ84Y5MrV+6PcAmoU+WQK1fuPDctbvLBC5IaBUUTuXLljnA7jc9amMJLIa36rly5civcJ1kGmnl7dzRHAAAAAElFTkSuQmCC' target="_blank">
+        
+          <img src="https://cdn.jsdelivr.net/gh/WPF0414/cdn-Material-X@1.2/logo/qrcode.png">
+        
+        </a>
+      
+    
+  </div>
+</div>
+
+
+
+        
       
     </div>
-    
-      <div class="full-width auto-padding tags">
-        
-          <a href="/tags/%E9%9B%AA/" rel="nofollow"><i class="fas fa-tag fa-fw"></i> 雪</a>
-        
-          <a href="/tags/%E7%BE%8E%E6%96%87/" rel="nofollow"><i class="fas fa-tag fa-fw"></i> 美文</a>
-        
-      </div>
-    
   </section>
-</article>
 
-            </div>
-          
-        
+
       
-    
-    
       
-        
+          <div class="prev-next">
+              
+              
+                  <section class="next">
+                      <span class="art-item-right" aria-hidden="true">
+                          <h6>下一页&nbsp;<i class="fas fa-chevron-right" aria-hidden="true"></i></h6>
+                          <h4>
+                              <a href="/post/c5e5b39a/" rel="prev" title="特殊字符编码">
+                                  
+                                      特殊字符编码
+                                  
+                              </a>
+                          </h4>
+                          
+                              
+                              <h6 class="tags">
+                                  <a class="tag" href="/tags/html/"><i class="fas fa-tag fa-fw" aria-hidden="true"></i> html</a>
+                              </h6>
+                          
+                      </span>
+                  </section>
+              
+          </div>
       
-    
-  </section>
-  
-    
-    <!-- 根据主题中的设置决定是否在archive中针对摘要部分的MathJax公式加载mathjax.js文件 -->
-    
-    
-
-  
+    </section>
+  </article>
 
 
-    
-  
+
+  <!-- 显示推荐文章和评论 -->
+
+
+
+  <article class="post white-box comments">
+    <section class="article typo">
+      <h4><i class="fas fa-comments fa-fw" aria-hidden="true"></i>&nbsp;评论</h4>
+      
+      
+        <section id="comments">
+          <div id="lv-container" data-id="city" data-uid="live2d-widget-model-koharu">
+            <noscript><div><i class='fas fa-exclamation-triangle'>&nbsp;无法加载Livere评论系统，请确保您的网络能够正常访问。</div></noscript>
+          </div>
+        </section>
+      
+      
+      
+        <section id="comments">
+          <div id="valine_container" class="valine_thread">
+            <i class="fas fa-spinner fa-spin fa-fw"></i>
+          </div>
+        </section>
+      
+    </section>
+  </article>
+
+
+
+
+
+
+<!-- 根据页面mathjax变量决定是否加载MathJax数学公式js -->
+
+
+
+  <script>
+    window.subData = {
+      title: 'Mac下nginx启动、关闭与重启命令',
+      tools: true
+    }
+  </script>
+
 
 </div>
 <aside class='l_side'>
@@ -488,92 +619,6 @@
     
     
       
-      
-        
-          
-          
-            
-              <section class='widget author'>
-  <div class='content pure'>
-    
-      <div class='avatar'>
-        <img class='avatar' src='https://cdn.jsdelivr.net/gh/WPF0414/cdn-Material-X@1.1/avatar/avatar.JPG'/>
-      </div>
-    
-    
-      <div class='text'>
-        
-        
-        
-          <p><span id="jinrishici-sentence">林深时见鹿</span></p>
-          <script src="https://sdk.jinrishici.com/v2/browser/jinrishici.js" charset="utf-8"></script>
-        
-      </div>
-    
-    
-      <div class="social-wrapper">
-        
-          
-            <a href="/atom.xml"
-              class="social fas fa-rss flat-btn"
-              target="_blank"
-              rel="external nofollow noopener noreferrer">
-            </a>
-          
-        
-          
-            <a href="/mailto:wangpengfei4113@163.com"
-              class="social fas fa-envelope flat-btn"
-              target="_blank"
-              rel="external nofollow noopener noreferrer">
-            </a>
-          
-        
-          
-            <a href="https://github.com/WPF0414"
-              class="social fab fa-github flat-btn"
-              target="_blank"
-              rel="external nofollow noopener noreferrer">
-            </a>
-          
-        
-          
-            <a href="https://music.163.com/#/user/home?id=487073158"
-              class="social fas fa-headphones-alt flat-btn"
-              target="_blank"
-              rel="external nofollow noopener noreferrer">
-            </a>
-          
-        
-      </div>
-    
-  </div>
-</section>
-
-            
-          
-        
-          
-          
-        
-          
-          
-        
-          
-          
-        
-          
-          
-        
-          
-          
-        
-          
-          
-        
-          
-          
-        
       
         
           
@@ -680,155 +725,6 @@
           
         
           
-          
-        
-          
-          
-        
-      
-        
-          
-          
-        
-          
-          
-        
-          
-          
-        
-          
-          
-        
-          
-          
-        
-          
-          
-        
-          
-          
-        
-          
-          
-            
-              <section class='widget plain'>
-  
-<header class='pure'>
-  <div><i class="fas fa-handshake fa-fw fa-fw" aria-hidden="true"></i>&nbsp;&nbsp;欢迎光临</div>
-  
-</header>
-
-  <div class='content pure'>
-    <script src="https://pv.sohu.com/cityjson?ie=utf-8"></script><script>var getOSAndBrowser=function(){var os=navigator.platform;var userAgent=navigator.userAgent;var info="";var tempArray="";if(os.indexOf("Win")>-1){if(userAgent.indexOf("Windows NT 5.0")>-1){info+="Win2000"}else if(userAgent.indexOf("Windows NT 5.1")>-1){info+="WinXP"}else if(userAgent.indexOf("Windows NT 5.2")>-1){info+="Win2003"}else if(userAgent.indexOf("Windows NT 6.0")>-1){info+="WindowsVista"}else if(userAgent.indexOf("Windows NT 6.1")>-1||userAgent.indexOf("Windows 7")>-1){info+="Win7"}else if(userAgent.indexOf("Windows NT 6.2")>-1||userAgent.indexOf("Windows 8")>-1){info+="Win8"}else if(userAgent.indexOf("Windows NT 6.3")>-1||userAgent.indexOf("Windows 8.1")>-1){info+="Win8.1"}else if(userAgent.indexOf("Windows NT 10.0")>-1||userAgent.indexOf("Windows 10")>-1){info+="Win10"}else{info+="Other"}}else if(os.indexOf("Mac")>-1){info+="Mac"}else if(os.indexOf("X11")>-1){info+="Unix"}else if(os.indexOf("Linux")>-1){info+="Linux"}else{info+="Other"}info+="/";var isOpera=userAgent.indexOf("Opera")>-1;var isIE=userAgent.indexOf("compatible")>-1&&userAgent.indexOf("MSIE")>-1&&!isOpera;var isEdge=userAgent.toLowerCase().indexOf("edge")>-1&&!isIE;var isIE11=(userAgent.toLowerCase().indexOf("trident")>-1&&userAgent.indexOf("rv")>-1);if(/[Ff]irefox(\/\d+\.\d+)/.test(userAgent)){tempArray=/([Ff]irefox)\/(\d+\.\d+)/.exec(userAgent);info+=tempArray[1]+tempArray[2]}else if(isIE){var version="";var reIE=new RegExp("MSIE (\\d+\\.\\d+);");reIE.test(userAgent);var fIEVersion=parseFloat(RegExp["$1"]);if(fIEVersion==7){version="IE7"}else if(fIEVersion==8){version="IE8"}else if(fIEVersion==9){version="IE9"}else if(fIEVersion==10){version="IE10"}else{version="0"}info+=version}else if(isEdge){info+="Edge"}else if(isIE11){info+="IE11"}else if(/[Cc]hrome\/\d+/.test(userAgent)){tempArray=/([Cc]hrome)\/(\d+)/.exec(userAgent);info+=tempArray[1]+tempArray[2]}else if(/[Vv]ersion\/\d+\.\d+\.\d+(\.\d)* *[Ss]afari/.test(userAgent)){tempArray=/[Vv]ersion\/(\d+\.\d+\.\d+)(\.\d)* *([Ss]afari)/.exec(userAgent);info+=tempArray[3]+tempArray[1]}else if(/[Oo]pera.+[Vv]ersion\/\d+\.\d+/.test(userAgent)){tempArray=/([Oo]pera).+[Vv]ersion\/(\d+)\.\d+/.exec(userAgent);info+=tempArray[1]+tempArray[2]}else{info+="unknown"}return info};document.write("欢迎来自"+returnCitySN["cname"]+"的朋友");document.write("<br>您的 IP 是："+returnCitySN["cip"]);document.write("<br>您使用的是："+getOSAndBrowser());</script>
-  </div>
-</section>
-
-            
-          
-        
-      
-        
-          
-          
-        
-          
-          
-        
-          
-          
-        
-          
-          
-        
-          
-          
-        
-          
-          
-        
-          
-          
-            
-              <section class='widget list'>
-  
-<header class='pure'>
-  <div><i class="fas fa-thumbs-up fa-fw" aria-hidden="true"></i>&nbsp;&nbsp;强烈推荐</div>
-  
-</header>
-
-  <div class='content pure'>
-    <ul class="entry">
-      
-        <li><a class="flat-box" title="https://xaoxuu.com/wiki/hexo.sh/" href="https://xaoxuu.com/wiki/hexo.sh/"
-          
-          
-          >
-          <div class='name'>
-            
-              <i class=" fa-fw" aria-hidden="true"></i>
-            
-            &nbsp;&nbsp;Hexo脚本（Mac）
-          </div>
-          
-        </a></li>
-      
-        <li><a class="flat-box" title="https://xaoxuu.com/wiki/vim-cn.sh/" href="https://xaoxuu.com/wiki/vim-cn.sh/"
-          
-          
-          >
-          <div class='name'>
-            
-              <i class=" fa-fw" aria-hidden="true"></i>
-            
-            &nbsp;&nbsp;图床脚本（Mac）
-          </div>
-          
-        </a></li>
-      
-        <li><a class="flat-box" title="https://yasuotu.com" href="https://yasuotu.com"
-          
-          
-          >
-          <div class='name'>
-            
-              <i class=" fa-fw" aria-hidden="true"></i>
-            
-            &nbsp;&nbsp;图片在线压缩
-          </div>
-          
-        </a></li>
-      
-        <li><a class="flat-box" title="https://realfavicongenerator.net" href="https://realfavicongenerator.net"
-          
-          
-          >
-          <div class='name'>
-            
-              <i class=" fa-fw" aria-hidden="true"></i>
-            
-            &nbsp;&nbsp;生成Favicon
-          </div>
-          
-        </a></li>
-      
-        <li><a class="flat-box" title="https://mxclub.github.io/resume/" href="https://mxclub.github.io/resume/"
-          
-          
-          >
-          <div class='name'>
-            
-              <i class=" fa-fw" aria-hidden="true"></i>
-            
-            &nbsp;&nbsp;简历主题
-          </div>
-          
-        </a></li>
-      
-    </ul>
-  </div>
-</section>
-
-            
           
         
           
@@ -967,50 +863,158 @@
         
           
           
+        
+          
+          
+            
+              <section class='widget list'>
+  
+<header class='pure'>
+  <div><i class="fas fa-thumbs-up fa-fw" aria-hidden="true"></i>&nbsp;&nbsp;强烈推荐</div>
+  
+</header>
+
+  <div class='content pure'>
+    <ul class="entry">
+      
+        <li><a class="flat-box" title="https://xaoxuu.com/wiki/hexo.sh/" href="https://xaoxuu.com/wiki/hexo.sh/"
+          
+          
+          >
+          <div class='name'>
+            
+              <i class=" fa-fw" aria-hidden="true"></i>
+            
+            &nbsp;&nbsp;Hexo脚本（Mac）
+          </div>
+          
+        </a></li>
+      
+        <li><a class="flat-box" title="https://xaoxuu.com/wiki/vim-cn.sh/" href="https://xaoxuu.com/wiki/vim-cn.sh/"
+          
+          
+          >
+          <div class='name'>
+            
+              <i class=" fa-fw" aria-hidden="true"></i>
+            
+            &nbsp;&nbsp;图床脚本（Mac）
+          </div>
+          
+        </a></li>
+      
+        <li><a class="flat-box" title="https://yasuotu.com" href="https://yasuotu.com"
+          
+          
+          >
+          <div class='name'>
+            
+              <i class=" fa-fw" aria-hidden="true"></i>
+            
+            &nbsp;&nbsp;图片在线压缩
+          </div>
+          
+        </a></li>
+      
+        <li><a class="flat-box" title="https://realfavicongenerator.net" href="https://realfavicongenerator.net"
+          
+          
+          >
+          <div class='name'>
+            
+              <i class=" fa-fw" aria-hidden="true"></i>
+            
+            &nbsp;&nbsp;生成Favicon
+          </div>
+          
+        </a></li>
+      
+        <li><a class="flat-box" title="https://mxclub.github.io/resume/" href="https://mxclub.github.io/resume/"
+          
+          
+          >
+          <div class='name'>
+            
+              <i class=" fa-fw" aria-hidden="true"></i>
+            
+            &nbsp;&nbsp;简历主题
+          </div>
+          
+        </a></li>
+      
+    </ul>
+  </div>
+</section>
+
+            
+          
+        
+          
+          
+        
+      
+        
+          
+          
+        
+          
+          
+        
+          
+          
+        
+          
+          
+        
+          
+          
+        
+          
+          
+        
+          
+          
+        
+          
+          
+        
+      
+        
+          
+          
+        
+          
+          
             
               
-
-
-  <section class='widget music'>
+  <section class='widget toc-wrapper'>
     
 <header class='pure'>
-  <div><i class="fas fa-compact-disc fa-fw" aria-hidden="true"></i>&nbsp;&nbsp;最近在听</div>
+  <div><i class="fas fa-list fa-fw" aria-hidden="true"></i>&nbsp;&nbsp;本文目录</div>
   
-    <a class="rightBtn"
-    
-      rel="external nofollow noopener noreferrer"
-    
-    
-      target="_blank"
-    
-    href="https://music.163.com/#/user/home?id=487073158"
-    title="https://music.163.com/#/user/home?id=487073158">
-    <i class="far fa-heart fa-fw"></i></a>
+    <!-- <div class='wrapper'><a class="s-toc rightBtn" rel="external nofollow noopener noreferrer noopener" href="javascript:void(0)" target="_blank"><i class="fas fa-thumbtack fa-fw"></i></a></div> -->
   
 </header>
 
     <div class='content pure'>
-      
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer@1.7.0/dist/APlayer.min.css">
-  <div class="aplayer"
-    data-theme="#1BCDFC"
-    
-    
-    data-mode="circulation"
-    data-server="netease"
-    data-type="playlist"
-    data-id="806751733"
-    data-volume="0.7">
-  </div>
-  <script src="https://cdn.jsdelivr.net/npm/aplayer@1.7.0/dist/APlayer.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/meting@1.1.0/dist/Meting.min.js"></script>
-
-
+      <ol class="toc"><li class="toc-item toc-level-4"><a class="toc-link" href="#nginx相关命令"><span class="toc-text">nginx相关命令</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#1、启动nginx："><span class="toc-text">1、启动nginx：</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#2、关闭nginx："><span class="toc-text">2、关闭nginx：</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#3、重启nginx："><span class="toc-text">3、重启nginx：</span></a></li></ol></li></ol>
     </div>
   </section>
 
 
             
+          
+        
+          
+          
+        
+          
+          
+        
+          
+          
+        
+          
           
         
           
@@ -1173,8 +1177,49 @@
 
 
 
+  <script type="text/javascript">
+    (function(d, s) {
+      var j, e = d.getElementsByTagName(s)[0];
+      if (typeof LivereTower === 'function') { return; }
+      j = d.createElement(s);
+      j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+      j.async = true;
+      e.parentNode.insertBefore(j, e);
+    })(document, 'script');
+  </script>
 
 
+
+
+  <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+  
+    
+      <script src="https://cdn.jsdelivr.net/gh/wpf0414/cdn-material-x@1.2/js/volantis.min.js"></script>
+    
+  
+  <script>
+  var GUEST_INFO = ['nick','mail','link'];
+  var guest_info = 'nick,mail,link'.split(',').filter(function(item){
+    return GUEST_INFO.indexOf(item) > -1
+  });
+  var notify = 'true' == true;
+  var verify = 'true' == true;
+  var valine = new Valine();
+  valine.init({
+    el: '#valine_container',
+    notify: notify,
+    verify: verify,
+    guest_info: guest_info,
+    
+    appId: "sm5E4krz0QTDInNR8eBqUXSR-gzGzoHsz",
+    appKey: "jeOWE6uIlDTJLR4z3me3E3gm",
+    placeholder: "快来评论吧~",
+    pageSize:'10',
+    avatar:'mp',
+    lang:'zh-cn',
+    highlight:'true'
+  })
+  </script>
 
 
 
