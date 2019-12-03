@@ -1,16 +1,17 @@
 ---
-title: hexo相关指令
-toc: true
-abbrlink: bafc0e00
-date: 2019-11-18 20:18:25
-comments: true
-thumbnail: https://cdn.jsdelivr.net/gh/TRHX/ImageHosting/ITRHX-PIC/thumbnail/img.png
+title: hexo相关指令	# 标题
+toc: true			# 是否生成目录
+abbrlink: bafc0e00	# 自动生成的永久链接
+date: 2019-11-18 20:18:25	# 文章创建时间
+comments: true	# 是否开启评论
+icons: [fas fa-star yellow, fas fa-fire accent] # 归档页显示图标
+thumbnail: https://cdn.jsdelivr.net/gh/TRHX/ImageHosting/ITRHX-PIC/thumbnail/img.png # 文章略缩图
 valine:
-  placeholder: 你觉得这篇文章怎么样呢？
-top: true
-categories: 
+  placeholder: 你觉得这篇文章怎么样呢？ # 自定义评论里的内容
+top: true 	# 是否顶置 可以自定义顶置名称
+categories: 	# 分类
 - hexo
-tags:
+tags:	# 标签
 - hexo
 ---
 写作时常用命令。

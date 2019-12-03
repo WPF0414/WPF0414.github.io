@@ -38,7 +38,7 @@ music:
   autoplay: false   # 自动播放
 
 # 友链页头像占位图
-avatar_placeholder: https://cdn.jsdelivr.net/gh/WPF0414/cdn-Material-X@1.1/avatar/avatar.JPG
+avatar_placeholder: #https://cdn.jsdelivr.net/gh/WPF0414/cdn-Material-X@1.1/avatar/avatar.JPG
 
 # 日期格式 http://momentjs.com/docs/
 date_format: 'YYYY-MM-DD HH:mm' # 文章发布日期的格式
@@ -83,15 +83,15 @@ cover:
 
 # 桌面端导航栏菜单
 menu_desktop:
-  - name: 示例
-    icon: fas fa-grin
+  - name: 文章
+    icon: fa fa-book
     url: /
   - name: 分类
     icon: fas fa-folder-open
     url: categories/
     rel: nofollow
   - name: 标签
-    icon: fas fa-hashtag
+    icon: fas fa-tags
     url: tags/
     rel: nofollow
   - name: 归档
@@ -108,17 +108,17 @@ menu_mobile:
     icon: fas fa-archive
     url: archives/
     rel: nofollow
-  - name: RSS订阅
-    icon: fas fa-rss
-    url: atom.xml
+  # - name: RSS订阅
+  #   icon: fas fa-rss
+  #   url: atom.xml
   - name: 我的友链
     icon: fas fa-link
     url: friends/
     rel: nofollow
-  - name: 主题文档
-    icon: fas fa-book
-    url: https://xaoxuu.com/wiki/material-x/
-    rel: nofollow
+  # - name: 主题文档
+  #   icon: fas fa-book
+  #   url: https://xaoxuu.com/wiki/material-x/
+  #   rel: nofollow
   - name: 关于小站
     icon: fas fa-info-circle
     url: about/

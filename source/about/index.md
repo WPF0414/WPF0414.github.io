@@ -5,6 +5,11 @@ body: [article, grid]
 valine:
   placeholder: 有什么想对我说的呢？
 sidebar: false
+music:
+  enable: true      # true（文章内和文章列表都显示） internal（只在文章内显示）
+  server: netease   # netease（网易云音乐）tencent（QQ音乐） xiami（虾米） kugou（酷狗）
+  type: song        # song （单曲） album （专辑） playlist （歌单） search （搜索）
+  id: 60102         # 歌曲/专辑/歌单 ID
 meta:
   header: []
   footer: []
@@ -19,8 +24,8 @@ meta:
 </div>
 <table>
 	<tr>
-		<td><img src="QQ.JPG" height="150" width="150" onclick="return false"></td>
-		<td><img src="WX.JPG" height="150" width="150" onclick="return false"></td>
+		<td><img src="/QQ.JPG" height="150" width="150" onclick="return false"></td>
+		<td><img src="/WX.JPG" height="150" width="150" onclick="return false"></td>
 	</tr>
 </table>
 
