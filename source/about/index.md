@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 关于
-body: [article, grid]
+body: [article]
 valine:
   placeholder: 有什么想对我说的呢？
 sidebar: false
@@ -24,8 +24,8 @@ meta:
 </div>
 <table>
 	<tr>
-		<td><img src="/QQ.JPG" height="150" width="150" onclick="return false"></td>
-		<td><img src="/WX.JPG" height="150" width="150" onclick="return false"></td>
+		<td><img src="QQ.JPG" height="150" width="150" onclick="return false"></td>
+		<td><img src="WX.JPG" height="150" width="150" onclick="return false"></td>
 	</tr>
 </table>
 
