@@ -5,7 +5,7 @@ abbrlink: bafc0e00	# 自动生成的永久链接
 date: 2019-11-18 20:18:25	# 文章创建时间
 comments: true	# 是否开启评论
 icons: [fas fa-star yellow, fas fa-fire accent] # 归档页显示图标
-thumbnail: https://cdn.jsdelivr.net/gh/TRHX/ImageHosting/ITRHX-PIC/thumbnail/img.png # 文章略缩图
+thumbnail: https://s2.ax1x.com/2019/12/05/Q8Hd1K.png # 文章略缩图
 valine:
   placeholder: 你觉得这篇文章怎么样呢？ # 自定义评论里的内容
 top: true 	# 是否顶置 可以自定义顶置名称
@@ -14,7 +14,7 @@ categories: 	# 分类
 tags:	# 标签
 - hexo
 ---
-写作时常用命令。
+收集一些hexo常用的命令。
 <!-- more -->
 你可以执行下列命令来创建一篇新文章或者新的页面。
 
