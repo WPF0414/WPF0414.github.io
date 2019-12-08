@@ -23,7 +23,7 @@ date: 2019-12-05 15:13:13
 	systemctl start firewalld.service
 ```
 ##### 2.查看防火墙状态 
-```
+``` shell
 	systemctl status firewalld.service
 ```
 ##### 3.关闭防火墙
