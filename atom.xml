@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://ymxcyn.cn/"/>
-  <updated>2019-12-05T07:13:13.000Z</updated>
+  <updated>2019-12-31T06:29:38.000Z</updated>
   <id>https://ymxcyn.cn/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Shadowsocks安装教程</title>
+    <link href="https://ymxcyn.cn/post/ceb8167b/"/>
+    <id>https://ymxcyn.cn/post/ceb8167b/</id>
+    <published>2019-12-31T06:29:38.000Z</published>
+    <updated>2019-12-31T06:29:38.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>简单的记录一下<code>SSR</code>搭建教程。</p><h3 id="一-安装SSR"><a href="#一-安装SSR" class="headerlink" title="一.安装SSR"></a>一.安装SSR</h3><p>本人在使用的是一键安装，也可自行寻找，指令如下：</p><figure class="highlight vim"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">wget -<span class="keyword">N</span> --<span class="keyword">no</span>-check-certificate http<span class="variable">s:</span>//raw.githubusercontent.<span class="keyword">com</span>/ToyoDAdoubi/doubi/master/ss-<span class="keyword">go</span>.<span class="keyword">sh</span> &amp;&amp; chmod +<span class="keyword">x</span> ss-<span class="keyword">go</span>.<span class="keyword">sh</span> &amp;&amp; bash ss-<span class="keyword">go</span>.<span class="keyword">sh</span></span><br></pre></td></tr></table></figure><h3 id="二-安装BBR"><a href="#二-安装BBR" class="headerlink" title="二.安装BBR"></a>二.安装BBR</h3><p>推荐一键安装，也可自行寻找，指令如下：</p><figure class="highlight vim"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">wget --<span class="keyword">no</span>-check-certificate http<span class="variable">s:</span>//github.<span class="keyword">com</span>/teddysun/across/raw/master/bbr.<span class="keyword">sh</span> &amp;&amp; chmod +<span class="keyword">x</span> bbr.<span class="keyword">sh</span> &amp;&amp; ./bbr.<span class="keyword">sh</span></span><br></pre></td></tr></table></figure><h4 id="验证Google-BBR"><a href="#验证Google-BBR" class="headerlink" title="验证Google BBR"></a>验证Google BBR</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 1、第一步：</span></span><br><span class="line">sysctl net.ipv4.tcp_available_congestion_control</span><br><span class="line"><span class="comment"># 输出值为：</span></span><br><span class="line">net.ipv4.tcp_available_congestion_control = bbr cubic reno</span><br><span class="line"><span class="comment"># 或者为：</span></span><br><span class="line">net.ipv4.tcp_available_congestion_control = reno cubic bbr</span><br><span class="line"><span class="comment"># 2、第二步：</span></span><br><span class="line">sysctl net.ipv4.tcp_congestion_control</span><br><span class="line"><span class="comment"># 输出值为：</span></span><br><span class="line">net.ipv4.tcp_congestion_control = bbr</span><br><span class="line"><span class="comment"># 3、第三步：</span></span><br><span class="line">sysctl net.core.default_qdisc</span><br><span class="line"><span class="comment"># 输出值为：</span></span><br><span class="line">net.core.default_qdisc = fq</span><br></pre></td></tr></table></figure><h3 id="三-关闭防火墙"><a href="#三-关闭防火墙" class="headerlink" title="三.关闭防火墙"></a>三.关闭防火墙</h3><p>输入以下命令进行验证：<br>连接不上关闭防火墙，centerOS 7 命令 <a href="https://ymxcyn.cn/post/9d0b5e63/">https://ymxcyn.cn/post/9d0b5e63/</a></p><p>关闭防火墙</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">systemctl stop firewalld.service <span class="comment">#停止firewall</span></span><br></pre></td></tr></table></figure><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">systemctl <span class="built_in">disable</span> firewalld.service <span class="comment">#禁止firewall开机启动</span></span><br></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;简单的记录一下&lt;code&gt;SSR&lt;/code&gt;搭建教程。&lt;/p&gt;
+&lt;h3 id=&quot;一-安装SSR&quot;&gt;&lt;a href=&quot;#一-安装SSR&quot; class=&quot;headerlink&quot; title=&quot;一.安装SSR&quot;&gt;&lt;/a&gt;一.安装SSR&lt;/h3&gt;&lt;p&gt;本人在使用的是一键安装，也可
+      
+    
+    </summary>
+    
+    
+      <category term="SSR" scheme="https://ymxcyn.cn/categories/SSR/"/>
+    
+    
+      <category term="SSR" scheme="https://ymxcyn.cn/tags/SSR/"/>
+    
+  </entry>
   
   <entry>
     <title>centerOS 7 相关指令</title>
