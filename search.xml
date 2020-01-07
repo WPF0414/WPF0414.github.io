@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>DecimalFormat丢失个位数0的问题</title>
+      <link href="/post/e78d8cf4/"/>
+      <url>/post/e78d8cf4/</url>
+      
+        <content type="html"><![CDATA[<p>今天早上线上用户提出个问题，打印pdf的时候客户买了<code>0.72</code>吨，打印出来为<code>.72</code>吨。<br>排查代码发现我们数量用的是BigDecimal类型，打印pdf的时候使用DecimalFormat转了一下。<br>相关代码如下：<br><img src="/post/e78d8cf4/DecimalFormat.png" alt><br>查询了DecimalFormat的用法，发现如下：<br>api中文帮助文档关于”#”的翻译是错误的，原文为“<code>zero shows as absent</code>”译为“如果为0，则不显示”。<br>改造代码：<br><img src="/post/e78d8cf4/DecimalFormat_new.png" alt></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Java </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> DecimalFormat </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Shadowsocks安装教程</title>
       <link href="/post/ceb8167b/"/>
       <url>/post/ceb8167b/</url>

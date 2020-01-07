@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://ymxcyn.cn/"/>
-  <updated>2019-12-31T06:29:38.000Z</updated>
+  <updated>2020-01-07T03:44:54.000Z</updated>
   <id>https://ymxcyn.cn/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>DecimalFormat丢失个位数0的问题</title>
+    <link href="https://ymxcyn.cn/post/e78d8cf4/"/>
+    <id>https://ymxcyn.cn/post/e78d8cf4/</id>
+    <published>2020-01-07T03:44:54.000Z</published>
+    <updated>2020-01-07T03:44:54.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>今天早上线上用户提出个问题，打印pdf的时候客户买了<code>0.72</code>吨，打印出来为<code>.72</code>吨。<br>排查代码发现我们数量用的是BigDecimal类型，打印pdf的时候使用DecimalFormat转了一下。<br>相关代码如下：<br><img src="/post/e78d8cf4/DecimalFormat.png" alt><br>查询了DecimalFormat的用法，发现如下：<br>api中文帮助文档关于”#”的翻译是错误的，原文为“<code>zero shows as absent</code>”译为“如果为0，则不显示”。<br>改造代码：<br><img src="/post/e78d8cf4/DecimalFormat_new.png" alt></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;今天早上线上用户提出个问题，打印pdf的时候客户买了&lt;code&gt;0.72&lt;/code&gt;吨，打印出来为&lt;code&gt;.72&lt;/code&gt;吨。&lt;br&gt;排查代码发现我们数量用的是BigDecimal类型，打印pdf的时候使用DecimalFormat转了一下。&lt;br&gt;相关代码如下：
+      
+    
+    </summary>
+    
+    
+      <category term="Java" scheme="https://ymxcyn.cn/categories/Java/"/>
+    
+    
+      <category term="DecimalFormat" scheme="https://ymxcyn.cn/tags/DecimalFormat/"/>
+    
+  </entry>
   
   <entry>
     <title>Shadowsocks安装教程</title>
