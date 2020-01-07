@@ -8,7 +8,7 @@ categories:
 tags:
 - nginx
 ---
-
+记录一下经常使用的nginx命令。<!--more-->
 #### nginx相关命令
 <!-- more -->
 ##### 1、启动nginx：
