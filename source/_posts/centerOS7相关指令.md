@@ -9,10 +9,6 @@ thumbnail: 'https://s2.ax1x.com/2019/12/05/Q8TYDJ.png'
 abbrlink: 9d0b5e63
 date: 2019-12-05 15:13:13
 ---
-
-
-
-![](bafc0e00/Fancybox_example.png)
 收集的一些centerOS指令。
 <!--more-->
 
