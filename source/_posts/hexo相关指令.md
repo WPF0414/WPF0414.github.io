@@ -202,6 +202,11 @@ content
 ![](bafc0e00/Fancybox_example.png)
 有预览图片
 <fancybox>![](bafc0e00/Fancybox_example.png)</fancybox>
+### Link
+在文章中插入链接，并自动给外部链接添加`target="_blank"`属性。
+```
+	{% link text url [external] [title] %}
+```
 ### Include Code
 插入 `source/downloads/code`文件夹内的代码文件。`source/downloads/code`不是固定的，取决于你在配置文件中`code_dir`的配置。
 ```
