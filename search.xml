@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>Spring Boot打成jar后无法读取根路径和文件</title>
+      <link href="/post/13b294db/"/>
+      <url>/post/13b294db/</url>
+      
+        <content type="html"><![CDATA[<p>记录一下<code>getContextClassLoader().getResource()</code>之坑<code>FileNotFoundException</code><a id="more"></a><br>今早部署代码到测试环境之后，测试需求的时候出现了<code>FileNotFoundException</code>，发现是获取字体路径的时候报错了，很奇怪，在本地调试的时候并未发现此问题。<br>问题代码如下：<br><img src="/post/13b294db/code.png" alt><br>排查发现问题如下：<br>这是因为打包后Spring试图访问文件系统路径，但无法访问JAR中的路径。使用<code>ClassPathResource</code>解决问题。<br><img src="/post/13b294db/code_fix.png" alt></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Java </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Spring Boot </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Git指令</title>
       <link href="/post/b56cf41b/"/>
       <url>/post/b56cf41b/</url>
