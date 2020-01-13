@@ -17,7 +17,7 @@ timezone: Asia/Shanghai
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://ymxcyn.cn
+url: http://ymxcyn.cn
 root: /
 permalink: post/:abbrlink/
 abbrlink:
@@ -183,3 +183,8 @@ import:
 leancloud:
   app_id: sm5E4krz0QTDInNR8eBqUXSR-gzGzoHsz
   app_key: jeOWE6uIlDTJLR4z3me3E3gm
+#hexo sitemap
+sitemap:
+  path: sitemap.xml
+baidusitemap:
+  path: baidusitemap.xml
