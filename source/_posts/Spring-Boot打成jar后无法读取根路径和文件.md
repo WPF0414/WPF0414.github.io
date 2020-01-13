@@ -12,7 +12,11 @@ date: 2020-01-13 14:50:38
 
 
 今早部署代码到测试环境之后，测试需求的时候出现了`FileNotFoundException`，发现是获取字体路径的时候报错了，很奇怪，在本地调试的时候并未发现此问题。
-
+错误日志：
+```
+	Caused by: java.io.FileNotFoundException: /opt/supplier_web/supplier_web.jar!/BOOT-INF/lib/supplier_web.web-0.0.1.jar!/font/simsun.ttf (No such file or directory)
+```
+![](/error_log.png)
 **问题代码如下：**
 ![](/code.png)
 **排查发现问题如下：**
