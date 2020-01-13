@@ -8,7 +8,7 @@ icons: [fas fa-star yellow, fas fa-fire accent] # 归档页显示图标
 thumbnail: https://s2.ax1x.com/2019/12/05/Q8Hd1K.png # 文章略缩图
 valine:
   placeholder: 你觉得这篇文章怎么样呢？ # 自定义评论里的内容
-top: true 	# 是否顶置 可以自定义顶置名称
+top: false 	# 是否顶置 可以自定义顶置名称
 categories: 	# 分类
 - hexo
 tags:	# 标签
