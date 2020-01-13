@@ -11,5 +11,5 @@ Disallow: /fonts/
 Disallow: /vendors/
 Disallow: /fancybox/
 
-Sitemap: http://ymxcyn.cn/sitemap.xml
-Sitemap: http://ymxcyn.cn/baidusitemap.xml
+Sitemap: https://www.ymxcyn.cn/sitemap.xml
+Sitemap: https://www.ymxcyn.cn/baidusitemap.xml
