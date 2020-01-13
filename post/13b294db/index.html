@@ -387,7 +387,7 @@
           <span class="post-meta-item-icon">
             <i class="fa fa-keyboard" aria-hidden="true"></i>
             <span class="post-meta-item-text">  字数统计: </span>
-            <span class="post-count">115字</span>
+            <span class="post-count">149字</span>
           </span>
         </span>
     
@@ -419,9 +419,13 @@
 
     <section class="article typo">
       <div class="article-entry" itemprop="articleBody">
-        <p>记录一下<code>getContextClassLoader().getResource()</code>之坑<code>FileNotFoundException</code><a id="more"></a></p>
-<p>今早部署代码到测试环境之后，测试需求的时候出现了<code>FileNotFoundException</code>，发现是获取字体路径的时候报错了，很奇怪，在本地调试的时候并未发现此问题。</p>
-<p><strong>问题代码如下</strong>：<br><img src="/post/13b294db/code.png" alt><br><strong>排查发现问题如下</strong>：<br>这是因为打包后Spring试图访问文件系统路径，但无法访问JAR中的路径。使用<code>ClassPathResource</code>解决问题。<br><img src="/post/13b294db/code_fix.png" alt></p>
+        <p>记录一下<code>getContextClassLoader().getResource()</code>之坑<code>FileNotFoundException</code>。<a id="more"></a></p>
+<p>今早部署代码到测试环境之后，测试需求的时候出现了<code>FileNotFoundException</code>，发现是获取字体路径的时候报错了，很奇怪，在本地调试的时候并未发现此问题。<br>错误日志：</p>
+<figure class="highlight groovy"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Caused <span class="string">by:</span> java.io.<span class="string">FileNotFoundException:</span> <span class="regexp">/opt/</span>supplier_web<span class="regexp">/supplier_web.jar!/</span>BOOT-INF<span class="regexp">/lib/</span>supplier_web.web<span class="number">-0.0</span><span class="number">.1</span>.jar!<span class="regexp">/font/</span>simsun.ttf (No such file or directory)</span><br></pre></td></tr></table></figure>
+<p><img src="/post/13b294db/error_log.png" alt><br><strong>问题代码如下：</strong><br><img src="/post/13b294db/code.png" alt><br><strong>排查发现问题如下：</strong></p>
+<p>这是因为打包后Spring试图访问文件系统路径，但无法访问JAR中的路径。</p>
+<p><strong>解决办法：</strong></p>
+<p>使用<code>ClassPathResource</code>解决问题。<br><img src="/post/13b294db/code_fix.png" alt></p>
 
       </div>
       
@@ -459,7 +463,7 @@
       
         <a class="-mob-share-qq" title="QQ好友" rel="external nofollow noopener noreferrer"
           
-          href="http://connect.qq.com/widget/shareqq/index.html?url=https://ymxcyn.cn/post/13b294db/&title=Spring Boot打成jar后无法读取根路径和文件 | 林深时见鹿&pics=https://cdn.jsdelivr.net/gh/WPF0414/cdn-Material-X@1.1/avatar/avatar.JPG&summary=记录一下getContextClassLoader().getResource()之坑FileNotFoundException"
+          href="http://connect.qq.com/widget/shareqq/index.html?url=https://ymxcyn.cn/post/13b294db/&title=Spring Boot打成jar后无法读取根路径和文件 | 林深时见鹿&pics=https://cdn.jsdelivr.net/gh/WPF0414/cdn-Material-X@1.1/avatar/avatar.JPG&summary=记录一下getContextClassLoader().getResource()之坑FileNotFoundException。"
           
           >
           
@@ -471,7 +475,7 @@
       
         <a class="-mob-share-qzone" title="QQ空间" rel="external nofollow noopener noreferrer"
           
-          href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=https://ymxcyn.cn/post/13b294db/&title=Spring Boot打成jar后无法读取根路径和文件 | 林深时见鹿&pics=https://cdn.jsdelivr.net/gh/WPF0414/cdn-Material-X@1.1/avatar/avatar.JPG&summary=记录一下getContextClassLoader().getResource()之坑FileNotFoundException"
+          href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=https://ymxcyn.cn/post/13b294db/&title=Spring Boot打成jar后无法读取根路径和文件 | 林深时见鹿&pics=https://cdn.jsdelivr.net/gh/WPF0414/cdn-Material-X@1.1/avatar/avatar.JPG&summary=记录一下getContextClassLoader().getResource()之坑FileNotFoundException。"
           
           >
           
@@ -491,7 +495,7 @@
       
         <a class="-mob-share-weibo" title="微博" rel="external nofollow noopener noreferrer"
           
-          href="http://service.weibo.com/share/share.php?url=https://ymxcyn.cn/post/13b294db/&title=Spring Boot打成jar后无法读取根路径和文件 | 林深时见鹿&pics=https://cdn.jsdelivr.net/gh/WPF0414/cdn-Material-X@1.1/avatar/avatar.JPG&summary=记录一下getContextClassLoader().getResource()之坑FileNotFoundException"
+          href="http://service.weibo.com/share/share.php?url=https://ymxcyn.cn/post/13b294db/&title=Spring Boot打成jar后无法读取根路径和文件 | 林深时见鹿&pics=https://cdn.jsdelivr.net/gh/WPF0414/cdn-Material-X@1.1/avatar/avatar.JPG&summary=记录一下getContextClassLoader().getResource()之坑FileNotFoundException。"
           
           >
           
