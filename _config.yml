@@ -11,7 +11,7 @@ author: 林深时见鹿
 # 网站图标
 favicon: https://cdn.jsdelivr.net/gh/WPF0414/cdn-Material-X@1.1/favicon/favicon.png
 # 作者头像，会出现在文章标题下方，不同于侧边栏的大头像
-avatar: https://cdn.jsdelivr.net/gh/WPF0414/cdn-Material-X@1.1/avatar/avatar.JPG
+avatar: https://cdn.jsdelivr.net/gh/WPF0414/cdn-Material-X@1.4.2/avatar/avatar2.jpg
 language: zh-CN
 timezone: Asia/Shanghai
 
@@ -157,7 +157,7 @@ live2d:
 # 侧边栏小部件
 widgets:
   - widget: author
-    avatar: https://cdn.jsdelivr.net/gh/WPF0414/cdn-Material-X@1.1/avatar/avatar.JPG
+    avatar: https://cdn.jsdelivr.net/gh/WPF0414/cdn-Material-X@1.4.2/avatar/avatar2.jpg
     jinrishici: 所谓博客，不过是孤芳自赏！
     social: true
 

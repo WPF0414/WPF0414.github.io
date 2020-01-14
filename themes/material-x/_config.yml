@@ -149,7 +149,7 @@ layout:
 # 侧边栏小部件配置
 sidebar:
   - widget: author
-    avatar: https://cdn.jsdelivr.net/gh/WPF0414/cdn-Material-X@1.1/avatar/avatar.JPG
+    avatar: https://cdn.jsdelivr.net/gh/WPF0414/cdn-Material-X@1.4.2/avatar/avatar2.jpg
     social: true
     jinrishici: true
   - widget: toc
