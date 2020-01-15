@@ -13,8 +13,6 @@
       
       <categories>
           
-          <category> shadowsocks </category>
-          
           <category> Mac </category>
           
       </categories>
@@ -23,6 +21,8 @@
         <tags>
             
             <tag> Mac终端 </tag>
+            
+            <tag> shadowsocks </tag>
             
         </tags>
       
