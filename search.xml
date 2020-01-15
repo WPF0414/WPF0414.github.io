@@ -4,33 +4,6 @@
   
     
     <entry>
-      <title>Mac终端使用shadowsocks代理</title>
-      <link href="/post/5d5adef1/"/>
-      <url>/post/5d5adef1/</url>
-      
-        <content type="html"><![CDATA[<p>配置Mac终端使用shadowsocks代理。<a id="more"></a></p><h5 id="一、配置"><a href="#一、配置" class="headerlink" title="一、配置"></a>一、配置</h5><ul><li><strong>shadowsocks配置如下：</strong><br><img src="/post/5d5adef1/shadowsocks_config.jpg" alt></li><li>终端 执行vim ~/.zshrc 打开.zshrc文件。</li><li>添加如下代理配置：<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># proxy list</span></span><br><span class="line"><span class="built_in">alias</span> proxy=<span class="string">'export all_proxy=socks5://127.0.0.1:1086'</span></span><br><span class="line"><span class="built_in">alias</span> unProxy=<span class="string">'unset all_proxy'</span></span><br></pre></td></tr></table></figure></li><li><code>:wq</code>保存退出。</li><li>执行<code>source ~/.zshrc</code></li></ul><h5 id="二、使用"><a href="#二、使用" class="headerlink" title="二、使用"></a>二、使用</h5><ul><li>开启终端代理命令：<code>proxy</code></li><li>解除终端代理命令：<code>unProxy</code></li><li>查看是否成功：<br>执行命令<code>curl cip.cc</code>:<figure class="highlight ada"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">~  curl cip.cc</span><br><span class="line">IP: 45.130.147.245</span><br><span class="line">地址: 欧盟  欧盟</span><br><span class="line"></span><br><span class="line">数据二: 美国</span><br><span class="line"></span><br><span class="line">数据三: 欧洲</span><br><span class="line"></span><br><span class="line">URL: <span class="type">http</span>://www.cip.cc/<span class="number">45.130</span>.<span class="number">147.245</span></span><br></pre></td></tr></table></figure>执行命令<code>curl -L ip.cn</code>:<figure class="highlight armasm"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"> ~  curl -L <span class="built_in">ip</span>.cn</span><br><span class="line">&#123;<span class="string">"ip"</span>: <span class="string">"45.130.147.245"</span>, <span class="string">"country"</span>: <span class="string">"俄罗斯"</span>, <span class="string">"city"</span>: <span class="string">""</span>&#125;</span><br></pre></td></tr></table></figure></li></ul>]]></content>
-      
-      
-      <categories>
-          
-          <category> Mac </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> Mac终端 </tag>
-            
-            <tag> shadowsocks </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>Spring Boot打成jar后无法读取根路径和文件</title>
       <link href="/post/13b294db/"/>
       <url>/post/13b294db/</url>
