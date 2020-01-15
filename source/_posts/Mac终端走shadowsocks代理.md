@@ -1,9 +1,10 @@
 ---
 title: Mac终端使用shadowsocks代理
 categories:
-  - null
+  - shadowsocks
+  - Mac
 tags:
-  - null
+  - Mac终端
 abbrlink: 5d5adef1
 date: 2020-01-15 10:20:21
 ---
