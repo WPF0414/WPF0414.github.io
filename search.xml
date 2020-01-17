@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>SQL查询某一字段重复的数据</title>
+      <link href="/post/e5a96a82/"/>
+      <url>/post/e5a96a82/</url>
+      
+        <content type="html"><![CDATA[<p>查询出重复记录<a id="more"></a></p><figure class="highlight routeros"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">select * <span class="keyword">from</span> 表 WHERE 重复记录字段 <span class="keyword">in</span> ( select 重复记录字段 <span class="keyword">from</span> 表<span class="built_in"> group </span>by 重复记录字段 having count(重复记录字段)&gt;1)</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> SQL </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> SQL </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Mac终端使用shadowsocks代理</title>
       <link href="/post/5d5adef1/"/>
       <url>/post/5d5adef1/</url>
