@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   
-  <title>林深时见鹿</title>
+  <title>Tag: Linux | 林深时见鹿</title>
   
   
   <meta name="description" content="所谓博客，不过是孤芳自赏！">
@@ -62,7 +62,91 @@
 <body>
   
   
-  <header class="l_header pure">
+  <div class="cover-wrapper">
+    <cover class='cover  half'>
+      
+        
+  <img class='logo' src='https://cdn.jsdelivr.net/gh/WPF0414/cdn-Material-X@1.4/logo/titleLogo.png'/>
+
+
+  <div class="m_search">
+    <form name="searchform" class="form u-search-form">
+      <input type="text" class="input u-search-input" placeholder="" />
+      <i class="icon fas fa-search fa-fw"></i>
+    </form>
+  </div>
+
+<div class='menu navgation'>
+  <ul class='h-list'>
+    
+      
+        <li>
+          <a class="nav home" href="/"
+            
+            
+            id="home">
+            <i class='fas fa-home fa-fw'></i>&nbsp;主页
+          </a>
+        </li>
+      
+        <li>
+          <a class="nav home" href="/archives/"
+            
+            
+            id="archives">
+            <i class='fas fa-archive fa-fw'></i>&nbsp;归档
+          </a>
+        </li>
+      
+        <li>
+          <a class="nav home" href="/friends/"
+            
+              rel="nofollow"
+            
+            
+            id="friends">
+            <i class='fas fa-link fa-fw'></i>&nbsp;友链
+          </a>
+        </li>
+      
+        <li>
+          <a class="nav home" href="/about/"
+            
+              rel="nofollow"
+            
+            
+            id="about">
+            <i class='fas fa-info-circle fa-fw'></i>&nbsp;关于
+          </a>
+        </li>
+      
+    
+  </ul>
+</div>
+<br>
+<p id="hitokoto">:D 获取中...</p>
+<!-- 现代写法，推荐 -->
+<!-- 兼容低版本浏览器 (包括 IE)，可移除 -->
+<script src="https://cdn.jsdelivr.net/npm/bluebird@3/js/browser/bluebird.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/whatwg-fetch@2.0.3/fetch.min.js"></script>
+<!--End-->
+<script>
+  fetch('https://v1.hitokoto.cn')
+    .then(function (res){
+      return res.json();
+    })
+    .then(function (data) {
+      var hitokoto = document.getElementById('hitokoto');
+      hitokoto.innerText = data.hitokoto; 
+    })
+    .catch(function (err) {
+      console.error(err);
+    })
+</script>
+
+      
+    </cover>
+    <header class="l_header pure">
   <div id="loading-bar-wrapper">
     <div id="loading-bar" class="pure"></div>
   </div>
@@ -206,14 +290,24 @@
 	</aside>
 <script>setLoadingBarProgress(40);</script>
 
+  </div>
 
 
-  <div class="l_body nocover">
+  <div class="l_body">
     <div class='body-wrapper'>
-      <div class='l_main'>
+      
+<div class='l_main'>
   
+    
+      
   <section class="post-list">
     
+      
+        
+          
+        
+      
+    
     
       
         
@@ -225,14 +319,12 @@
   <section class='meta'>
     
     
-      <a title='十一月北方下雪' href='/post/6340912b/'><img class='thumbnail' src='https://s2.ax1x.com/2019/12/05/Q8xpMq.png'></a>
-    
     <div class="meta" id="header-meta">
       
         
   <h2 class="title">
-    <a href="/post/6340912b/">
-      十一月北方下雪
+    <a href="/post/98274668/">
+      Linux查询某个时间段的日志
     </a>
   </h2>
 
@@ -262,7 +354,7 @@
             <div class="new-meta-item date">
   <a class='notlink'>
     <i class="fas fa-calendar-alt" aria-hidden="true"></i>
-    <p>2019-11-20 20:14</p>
+    <p>2020-01-17 15:41</p>
   </a>
 </div>
 
@@ -272,9 +364,9 @@
             
   
   <div class='new-meta-item category'>
-    <a href='/categories/%E7%BE%8E%E6%96%87/' rel="nofollow">
+    <a href='/categories/Linux/' rel="nofollow">
       <i class="fas fa-folder-open" aria-hidden="true"></i>
-      <p>美文</p>
+      <p>Linux</p>
     </a>
   </div>
 
@@ -289,7 +381,7 @@
           <span class="post-meta-item-icon">
             <i class="fa fa-keyboard" aria-hidden="true"></i>
             <span class="post-meta-item-text">  字数统计: </span>
-            <span class="post-count">11.1k字</span>
+            <span class="post-count">107字</span>
           </span>
         </span>
     
@@ -298,7 +390,7 @@
           <span class="post-meta-item-icon">
             <i class="fa fa-hourglass-half"></i>
             <span class="post-meta-item-text">  阅读时长≈ </span>
-            <span class="post-count">37分</span>
+            <span class="post-count">1分</span>
           </span>
         </span>
     </div>
@@ -321,10 +413,10 @@
 
   <section class="article typo">
     <div class="article-entry" itemprop="articleBody">
-      <p><img src="https://s2.ax1x.com/2019/12/05/Q8vYrV.md.jpg" alt></p>
+      <p>查询Linux系统中某个时间段的日志。</p>
       
         <div class="readmore">
-          <a href="/post/6340912b/" class="flat-box">
+          <a href="/post/98274668/" class="flat-box">
             <i class="fas fa-book-open fa-fw" aria-hidden="true"></i>
             阅读全文
           </a>
@@ -334,137 +426,7 @@
     
       <div class="full-width auto-padding tags">
         
-          <a href="/tags/%E9%9B%AA/" rel="nofollow"><i class="fas fa-tag fa-fw"></i> 雪</a>
-        
-          <a href="/tags/%E7%BE%8E%E6%96%87/" rel="nofollow"><i class="fas fa-tag fa-fw"></i> 美文</a>
-        
-      </div>
-    
-  </section>
-</article>
-
-          </div>
-        
-      
-        
-          <div class='post-wrapper'>
-            <article class="post reveal ">
-  
-
-
-  <section class='meta'>
-    
-    
-      <a title='hexo相关指令' href='/post/bafc0e00/'><img class='thumbnail' src='https://s2.ax1x.com/2019/12/05/Q8Hd1K.png'></a>
-    
-    <div class="meta" id="header-meta">
-      
-        
-  <h2 class="title">
-    <a href="/post/bafc0e00/">
-      hexo相关指令
-    </a>
-  </h2>
-
-
-      
-      <div class='new-meta-box'>
-        
-          
-        
-          
-            
-  <div class='new-meta-item author'>
-    
-      <a href="https://www.ymxcyn.cn" rel="nofollow">
-        
-          <img src="https://cdn.jsdelivr.net/gh/WPF0414/cdn-Material-X@1.4.2/avatar/avatar2.jpg">
-        
-        <p>林深时见鹿</p>
-      </a>
-    
-  </div>
-
-
-          
-        
-          
-            <div class="new-meta-item date">
-  <a class='notlink'>
-    <i class="fas fa-calendar-alt" aria-hidden="true"></i>
-    <p>2019-11-18 20:18</p>
-  </a>
-</div>
-
-          
-        
-          
-            
-  
-  <div class='new-meta-item category'>
-    <a href='/categories/hexo/' rel="nofollow">
-      <i class="fas fa-folder-open" aria-hidden="true"></i>
-      <p>hexo</p>
-    </a>
-  </div>
-
-
-          
-        
-          
-            
-  
-    <div>
-        <span class="post-time">
-          <span class="post-meta-item-icon">
-            <i class="fa fa-keyboard" aria-hidden="true"></i>
-            <span class="post-meta-item-text">  字数统计: </span>
-            <span class="post-count">2k字</span>
-          </span>
-        </span>
-    
-        <span class="post-time">
-          &nbsp; | &nbsp;
-          <span class="post-meta-item-icon">
-            <i class="fa fa-hourglass-half"></i>
-            <span class="post-meta-item-text">  阅读时长≈ </span>
-            <span class="post-count">9分</span>
-          </span>
-        </span>
-    </div>
-  
-
-          
-        
-          
-            
-
-          
-        
-      </div>
-      
-        <hr>
-      
-    </div>
-  </section>
-
-
-  <section class="article typo">
-    <div class="article-entry" itemprop="articleBody">
-      <p>收集一些hexo常用的命令。</p>
-      
-        <div class="readmore">
-          <a href="/post/bafc0e00/" class="flat-box">
-            <i class="fas fa-book-open fa-fw" aria-hidden="true"></i>
-            阅读全文
-          </a>
-        </div>
-      
-    </div>
-    
-      <div class="full-width auto-padding tags">
-        
-          <a href="/tags/hexo/" rel="nofollow"><i class="fas fa-tag fa-fw"></i> hexo</a>
+          <a href="/tags/Linux/" rel="nofollow"><i class="fas fa-tag fa-fw"></i> Linux</a>
         
       </div>
     
@@ -477,24 +439,6 @@
     
   </section>
   
-    
-      <br>
-      <div class="prev-next">
-        <div class="prev-next">
-          
-            <a class="prev" rel="prev" href="/">
-              <section class="post prev" >
-                <i class="fas fa-chevron-left" aria-hidden="true"></i>&nbsp;上一页&nbsp;
-              </section>
-            </a>
-          
-          <p class="current">
-            2 / 2
-          </p>
-          
-        </div>
-      </div>
-
     
     <!-- 根据主题中的设置决定是否在archive中针对摘要部分的MathJax公式加载mathjax.js文件 -->
     
@@ -503,6 +447,8 @@
   
 
 
+    
+  
 </div>
 <aside class='l_side'>
   

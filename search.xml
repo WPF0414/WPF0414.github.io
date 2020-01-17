@@ -4,11 +4,36 @@
   
     
     <entry>
+      <title>Linux查询某个时间段的日志</title>
+      <link href="/post/98274668/"/>
+      <url>/post/98274668/</url>
+      
+        <content type="html"><![CDATA[<p>查询Linux系统中某个时间段的日志。<a id="more"></a></p><p><strong>查询某个时间段的日志</strong></p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sed -n <span class="string">'/开始时间/,/结束时间/p'</span> 日志文件</span><br><span class="line"><span class="comment"># sed -n '/2020-01-17 08:37:/,/2020-01-17 08:45:/p' catalina.out</span></span><br></pre></td></tr></table></figure><p><strong>查询某个时间段中包含的关键词的日志</strong></p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sed -n <span class="string">'/开始时间/,/结束时间/p'</span> 日志文件 | grep <span class="string">"关键词"</span></span><br><span class="line"><span class="comment"># sed -n '/2020-01-17 08:37:/,/2020-01-17 08:45:/p' catalina.out | grep "key"</span></span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> Linux </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Linux </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>SQL查询某一字段重复的数据</title>
       <link href="/post/e5a96a82/"/>
       <url>/post/e5a96a82/</url>
       
-        <content type="html"><![CDATA[<p>查询出重复记录<a id="more"></a></p><figure class="highlight routeros"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">select * <span class="keyword">from</span> 表 WHERE 重复记录字段 <span class="keyword">in</span> ( select 重复记录字段 <span class="keyword">from</span> 表<span class="built_in"> group </span>by 重复记录字段 having count(重复记录字段)&gt;1)</span><br></pre></td></tr></table></figure>]]></content>
+        <content type="html"><![CDATA[<p>查询出重复记录。<a id="more"></a></p><figure class="highlight routeros"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">select * <span class="keyword">from</span> 表 WHERE 重复记录字段 <span class="keyword">in</span> ( select 重复记录字段 <span class="keyword">from</span> 表<span class="built_in"> group </span>by 重复记录字段 having count(重复记录字段)&gt;1)</span><br></pre></td></tr></table></figure>]]></content>
       
       
       <categories>
