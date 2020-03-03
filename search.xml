@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>SQL批量插入语法</title>
+      <link href="/post/c2155254/"/>
+      <url>/post/c2155254/</url>
+      
+        <content type="html"><![CDATA[<p>今天刚到公司老大说线上有三四万个订单行需要插入数据，让我处理一下。头脑发懵，长时间没使用SQL了，查询了一下，有批量创建查询的接口，故此记录一下。<a id="more"></a><br><img src="/post/c2155254/SQL.png" alt></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> SQL </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> SQL </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Linux查询某个时间段的日志</title>
       <link href="/post/98274668/"/>
       <url>/post/98274668/</url>
