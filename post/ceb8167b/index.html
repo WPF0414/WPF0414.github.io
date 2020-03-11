@@ -326,7 +326,7 @@
             
   <div class='new-meta-item author'>
     
-      <a href="https://www.ymxcyn.cn" rel="nofollow">
+      <a href="https://ymxcyn.cn" rel="nofollow">
         
           <img src="https://cdn.jsdelivr.net/gh/WPF0414/cdn-Material-X@1.4.2/avatar/avatar2.jpg">
         
@@ -425,7 +425,7 @@
 <h3 id="二-安装BBR"><a href="#二-安装BBR" class="headerlink" title="二.安装BBR"></a>二.安装BBR</h3><p>推荐一键安装，也可自行寻找，指令如下：</p>
 <figure class="highlight vim"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">wget --<span class="keyword">no</span>-check-certificate http<span class="variable">s:</span>//github.<span class="keyword">com</span>/teddysun/across/raw/master/bbr.<span class="keyword">sh</span> &amp;&amp; chmod +<span class="keyword">x</span> bbr.<span class="keyword">sh</span> &amp;&amp; ./bbr.<span class="keyword">sh</span></span><br></pre></td></tr></table></figure>
 <h4 id="验证Google-BBR"><a href="#验证Google-BBR" class="headerlink" title="验证Google BBR"></a>验证Google BBR</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 1、第一步：</span></span><br><span class="line">		sysctl net.ipv4.tcp_available_congestion_control</span><br><span class="line">	<span class="comment"># 输出值为：</span></span><br><span class="line">		net.ipv4.tcp_available_congestion_control = bbr cubic reno</span><br><span class="line">	<span class="comment"># 或者为：</span></span><br><span class="line">		net.ipv4.tcp_available_congestion_control = reno cubic bbr</span><br><span class="line"><span class="comment"># 2、第二步：</span></span><br><span class="line">		sysctl net.ipv4.tcp_congestion_control</span><br><span class="line">	<span class="comment"># 输出值为：</span></span><br><span class="line">		net.ipv4.tcp_congestion_control = bbr</span><br><span class="line"><span class="comment"># 3、第三步：</span></span><br><span class="line">		sysctl net.core.default_qdisc</span><br><span class="line">	<span class="comment"># 输出值为：</span></span><br><span class="line">		net.core.default_qdisc = fq</span><br></pre></td></tr></table></figure>
-<h3 id="三-关闭防火墙"><a href="#三-关闭防火墙" class="headerlink" title="三.关闭防火墙"></a>三.关闭防火墙</h3><p>输入以下命令进行验证：<br>连接不上关闭防火墙，centerOS 7 命令 <a href="https://ymxcyn.cn/post/9d0b5e63/" target="_blank" rel="noopener">https://ymxcyn.cn/post/9d0b5e63/</a></p>
+<h3 id="三-关闭防火墙"><a href="#三-关闭防火墙" class="headerlink" title="三.关闭防火墙"></a>三.关闭防火墙</h3><p>输入以下命令进行验证：<br>连接不上关闭防火墙，centerOS 7 命令 <a href="https://ymxcyn.cn/post/9d0b5e63/">https://ymxcyn.cn/post/9d0b5e63/</a></p>
 <p>关闭防火墙</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">systemctl stop firewalld.service <span class="comment">#停止firewall</span></span><br></pre></td></tr></table></figure>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">systemctl <span class="built_in">disable</span> firewalld.service <span class="comment">#禁止firewall开机启动</span></span><br></pre></td></tr></table></figure>
@@ -466,7 +466,7 @@
       
         <a class="-mob-share-qq" title="QQ好友" rel="external nofollow noopener noreferrer"
           
-          href="http://connect.qq.com/widget/shareqq/index.html?url=https://www.ymxcyn.cn/post/ceb8167b/&title=Shadowsocks安装教程 | 林深时见鹿&pics=https://cdn.jsdelivr.net/gh/WPF0414/cdn-Material-X@1.4.2/avatar/avatar2.jpg&summary=简单的记录一下SSR搭建教程。"
+          href="http://connect.qq.com/widget/shareqq/index.html?url=https://ymxcyn.cn/post/ceb8167b/&title=Shadowsocks安装教程 | 林深时见鹿&pics=https://cdn.jsdelivr.net/gh/WPF0414/cdn-Material-X@1.4.2/avatar/avatar2.jpg&summary=简单的记录一下SSR搭建教程。"
           
           >
           
@@ -478,7 +478,7 @@
       
         <a class="-mob-share-qzone" title="QQ空间" rel="external nofollow noopener noreferrer"
           
-          href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=https://www.ymxcyn.cn/post/ceb8167b/&title=Shadowsocks安装教程 | 林深时见鹿&pics=https://cdn.jsdelivr.net/gh/WPF0414/cdn-Material-X@1.4.2/avatar/avatar2.jpg&summary=简单的记录一下SSR搭建教程。"
+          href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=https://ymxcyn.cn/post/ceb8167b/&title=Shadowsocks安装教程 | 林深时见鹿&pics=https://cdn.jsdelivr.net/gh/WPF0414/cdn-Material-X@1.4.2/avatar/avatar2.jpg&summary=简单的记录一下SSR搭建教程。"
           
           >
           
@@ -488,7 +488,7 @@
       
     
       
-        <a class='qrcode' rel="external nofollow noopener noreferrer noopener" href='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMYAAADGCAAAAACs8KCBAAACOUlEQVR42u3aW2rEMAwF0O5/0+kChqT3yhlonOOvEiaP44KQLP38xOv4WJ/Xz66sPO3mhYGB8VjGcbny38w2Iof98V4MDIwXMM5efPab5K42WibvPb2OgYGBcRkik+fMNgIDAwPjroB7ndglaehsazAwMN7GSF7QJnZJ2E1Sw5trcQwMjAcy7ioyv/H3V/obGBgYj2Ic5UqK0lm4PBYWBgbG3ow8wLWfnid5SYMz+h4MDIxNGSsjDvkxWd4YaFsIN0xqYGBg/HtGEgrbI7OkhZAc9Ndbg4GBsSljJaVrU7319PGUjYGB8QJG3lacpY9tElmPgGBgYGzNmI07rKSMM2TR1MTAwNiOcR28EkzejMxDeb3dGBgYWzPaI/7ZletPLIrVvBOLgYGxESNPAdugOWtq5q2C6P+AgYGxESN/XF6m1qNdcTo4fBAGBsZjGXmB2pavLbVNSaOZEQwMjI0Y7cFZO0KRB9zZEzAwMPZmzFqVecG5XrJGGSAGBsbWjFkCl5eXSfrYNkTr6hwDA2MLRjv41ZavSfOgTUxPhy0wMDC2ZrTtyVm4nKWeUYmLgYHxAkZeds4O92dtziKsY2BgbMo4yrVyb15J13dhYGBszVgPdrO0sh2qmDUbMDAwdmLMQmR+6NbuXHv8h4GB8R5GfbwVH4qtj2IUpSwGBgZG2Rhoi9J8CzAwMDDyArIdoZiF8uj5GBgYL2DkH9emg+3QWBvEMTAw3sBoS9O8FdpSk41YampiYGA8j/EL93L6CLNxadsAAAAASUVORK5CYII=' target="_blank">
+        <a class='qrcode' rel="external nofollow noopener noreferrer noopener" href='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAK4AAACuCAAAAACKZ2kyAAAB1ElEQVR42u3aS5KDMAxFUfa/abIAYnOfhB0qdT3qSmh8nIHK+hwHXudlXT+/Pk/edqxYcuXKbXPP6RptMCKOEPz9o2fkypW7nzvaYI6bhzkSBLlBrly5b+aS68v8SHLlyv1Xbu1bHijlypX7Bi5JTtDrpt+SQz6Wq8mVK7fB5VXKdX8vqe/KlSu3xD3DNS+P1p4MdpcrV+4WLg8otQtHLSm62VeuXLlbuLXAxP8rTZxQ8iNXrtzF3M5wFWmj8jJHcMWRK1fuFu68xNlJV9KxjBuVXLlyt3NrBQ5+YUobJyhXkytX7gIuCVud0FMrpqBCjFy5chdzeWmjw6qNdwyLI3Llyl3A7bRO08CXJkJfDiNXrtyN3LR9Qpoi/D28KCNXrtw9XHJlqQWd9MD8AHLlyv0tt3ah4dvz54POj1y5ch/l8qZpWuZIQ9jNDyFXrtztXJ6oFOuy4RXn4K+WK1fuQ9zOoFV6DUpbtnLlyv0Vtz8S0RmravWE5cqVu5ibBi9SYO0EMjSSJVeu3C3cNNDw0Y20oYJyNbly5b6My5uv6edBxiZXrtxXctMA1Cl8DHvCcuXKXcxNx6348GXt0lPsCcuVK/chbr9Pm15T0kFPuXLlbuR+AAaae4pkTzuWAAAAAElFTkSuQmCC' target="_blank">
         
           <img src="https://cdn.jsdelivr.net/gh/WPF0414/cdn-Material-X@1.2/logo/wechat.png">
         
@@ -498,7 +498,7 @@
       
         <a class="-mob-share-weibo" title="微博" rel="external nofollow noopener noreferrer"
           
-          href="http://service.weibo.com/share/share.php?url=https://www.ymxcyn.cn/post/ceb8167b/&title=Shadowsocks安装教程 | 林深时见鹿&pics=https://cdn.jsdelivr.net/gh/WPF0414/cdn-Material-X@1.4.2/avatar/avatar2.jpg&summary=简单的记录一下SSR搭建教程。"
+          href="http://service.weibo.com/share/share.php?url=https://ymxcyn.cn/post/ceb8167b/&title=Shadowsocks安装教程 | 林深时见鹿&pics=https://cdn.jsdelivr.net/gh/WPF0414/cdn-Material-X@1.4.2/avatar/avatar2.jpg&summary=简单的记录一下SSR搭建教程。"
           
           >
           
@@ -508,7 +508,7 @@
       
     
       
-        <a class='qrcode' rel="external nofollow noopener noreferrer noopener" href='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMYAAADGCAAAAACs8KCBAAACOUlEQVR42u3aW2rEMAwF0O5/0+kChqT3yhlonOOvEiaP44KQLP38xOv4WJ/Xz66sPO3mhYGB8VjGcbny38w2Iof98V4MDIwXMM5efPab5K42WibvPb2OgYGBcRkik+fMNgIDAwPjroB7ndglaehsazAwMN7GSF7QJnZJ2E1Sw5trcQwMjAcy7ioyv/H3V/obGBgYj2Ic5UqK0lm4PBYWBgbG3ow8wLWfnid5SYMz+h4MDIxNGSsjDvkxWd4YaFsIN0xqYGBg/HtGEgrbI7OkhZAc9Ndbg4GBsSljJaVrU7319PGUjYGB8QJG3lacpY9tElmPgGBgYGzNmI07rKSMM2TR1MTAwNiOcR28EkzejMxDeb3dGBgYWzPaI/7ZletPLIrVvBOLgYGxESNPAdugOWtq5q2C6P+AgYGxESN/XF6m1qNdcTo4fBAGBsZjGXmB2pavLbVNSaOZEQwMjI0Y7cFZO0KRB9zZEzAwMPZmzFqVecG5XrJGGSAGBsbWjFkCl5eXSfrYNkTr6hwDA2MLRjv41ZavSfOgTUxPhy0wMDC2ZrTtyVm4nKWeUYmLgYHxAkZeds4O92dtziKsY2BgbMo4yrVyb15J13dhYGBszVgPdrO0sh2qmDUbMDAwdmLMQmR+6NbuXHv8h4GB8R5GfbwVH4qtj2IUpSwGBgZG2Rhoi9J8CzAwMDDyArIdoZiF8uj5GBgYL2DkH9emg+3QWBvEMTAw3sBoS9O8FdpSk41YampiYGA8j/EL93L6CLNxadsAAAAASUVORK5CYII=' target="_blank">
+        <a class='qrcode' rel="external nofollow noopener noreferrer noopener" href='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAK4AAACuCAAAAACKZ2kyAAAB1ElEQVR42u3aS5KDMAxFUfa/abIAYnOfhB0qdT3qSmh8nIHK+hwHXudlXT+/Pk/edqxYcuXKbXPP6RptMCKOEPz9o2fkypW7nzvaYI6bhzkSBLlBrly5b+aS68v8SHLlyv1Xbu1bHijlypX7Bi5JTtDrpt+SQz6Wq8mVK7fB5VXKdX8vqe/KlSu3xD3DNS+P1p4MdpcrV+4WLg8otQtHLSm62VeuXLlbuLXAxP8rTZxQ8iNXrtzF3M5wFWmj8jJHcMWRK1fuFu68xNlJV9KxjBuVXLlyt3NrBQ5+YUobJyhXkytX7gIuCVud0FMrpqBCjFy5chdzeWmjw6qNdwyLI3Llyl3A7bRO08CXJkJfDiNXrtyN3LR9Qpoi/D28KCNXrtw9XHJlqQWd9MD8AHLlyv0tt3ah4dvz54POj1y5ch/l8qZpWuZIQ9jNDyFXrtztXJ6oFOuy4RXn4K+WK1fuQ9zOoFV6DUpbtnLlyv0Vtz8S0RmravWE5cqVu5ibBi9SYO0EMjSSJVeu3C3cNNDw0Y20oYJyNbly5b6My5uv6edBxiZXrtxXctMA1Cl8DHvCcuXKXcxNx6348GXt0lPsCcuVK/chbr9Pm15T0kFPuXLlbuR+AAaae4pkTzuWAAAAAElFTkSuQmCC' target="_blank">
         
           <img src="https://cdn.jsdelivr.net/gh/WPF0414/cdn-Material-X@1.2/logo/qrcode.png">
         
