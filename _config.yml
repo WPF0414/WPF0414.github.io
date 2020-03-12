@@ -17,7 +17,7 @@ timezone: Asia/Shanghai
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://www.ymxcyn.cn
+url: http://www.ymxcyn.cn
 root: /
 permalink: post/:abbrlink/
 abbrlink:
@@ -106,6 +106,7 @@ deploy:
   repo: 
     github: git@github.com:WPF0414/WPF0414.github.io.git
     coding: git@e.coding.net:wpf0414/wpf0414.coding.me.git
+    aliyun: git@ymxcyn.cn:/hexoBlog/repo/hexoBlog.git
   branch: master
 # 备份
 backup:
