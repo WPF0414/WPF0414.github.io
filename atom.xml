@@ -23,11 +23,23 @@
     <published>2020-03-12T04:09:12.000Z</published>
     <updated>2020-03-12T04:09:12.000Z</updated>
     
+    <content type="html"><![CDATA[<p>1234567898765432134567898765432</p>]]></content>
+    
     <summary type="html">
+    
+      
+      
+        &lt;p&gt;1234567898765432134567898765432&lt;/p&gt;
+
+      
     
     </summary>
     
     
+      <category term="test" scheme="http://www.ymxcyn.cn/categories/test/"/>
+    
+    
+      <category term="test" scheme="http://www.ymxcyn.cn/tags/test/"/>
     
   </entry>
   
