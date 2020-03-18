@@ -3,7 +3,7 @@ title: SQL查询某一字段重复的数据
 categories:
   - SQL
 tags:
-  - SQL
+  - sql
 abbrlink: e5a96a82
 date: 2020-01-17 11:54:45
 ---

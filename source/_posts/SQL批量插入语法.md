@@ -3,7 +3,7 @@ title: SQL批量插入语法
 categories:
   - SQL
 tags:
-  - SQL
+  - sql
 abbrlink: c2155254
 date: 2020-03-03 20:57:38
 ---
